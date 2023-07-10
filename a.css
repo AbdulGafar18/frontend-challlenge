@@ -10,7 +10,7 @@
  display: flex; flex-wrap: wrap;
  justify-content: center; 
  margin-block-end: 1em;
- line-height: 150%; margin-top: 10em;}
+ line-height: 150%;  padding: 100px;}
 
 .sedan{ background-color : hsl(31, 77%, 52%); 
   width: fit-content;
@@ -27,7 +27,8 @@
 h2{ color: hsl(0, 0%, 95%) ; 
   margin-block-end: 1em;}
 
-.btn1, .btn2, .btn3 { background-color:hsl(0, 0%, 95%); 
+.btn1, .btn2, .btn3 { 
+  background-color:hsl(0, 0%, 95%); 
   text-align: center; 
   justify-content: center; 
   font-family: var(--lexend-deca); 
@@ -43,7 +44,7 @@ h2{ color: hsl(0, 0%, 95%) ;
 
 .btn1:hover{ background-color: hsl(31, 77%, 52%) ; }
 
- .sedan, .suvs, .luxury { width: fit-content; margin-block-end: 1em ;}
+ .sedan, .suvs, .luxury { width: fit-content; }
 
 p {  font-family: var(--lexend-deca );
   color: hsla(0, 0%, 100%, 0.75); max-width: 14em;
